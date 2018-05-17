@@ -1,0 +1,19 @@
+{
+  "name": "personal-portfolio",
+  "version": "1.0.0",
+  "description": "personal portfolio",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Atrill90/Personal-Portfolio.git"
+  },
+  "author": "alex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Atrill90/Personal-Portfolio/issues"
+  },
+  "homepage": "https://github.com/Atrill90/Personal-Portfolio#readme"
+}
