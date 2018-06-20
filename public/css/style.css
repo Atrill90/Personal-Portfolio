@@ -164,6 +164,17 @@
 .cardImg{
    max-width: 100%;
 }
-/* .secondCard{
-    margin-right: 40px;
-} */
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main{
+    flex: 1 0 auto;
+}
+.card-content{
+    padding-top: 0;
+}
+      
+
