@@ -157,6 +157,7 @@
     align-items: center;
 }
 
+/* actual website styling*/
 
 #nameLogo{
     font-family: 'Cherry Swash', cursive;
@@ -169,12 +170,24 @@ body {
     min-height: 100vh;
     flex-direction: column;
 }
-
 main{
     flex: 1 0 auto;
 }
 .card-content{
-    padding-top: 0;
+    padding: 0px !important;
 }
-      
-
+.col{
+    max-height: 100%;
+}
+.nameBar{
+    color: rgb(39,94,99);
+    outline: none;
+    box-shadow: none;
+}
+#repoTitle{
+    width: 100%;
+}
+.fa-angle-down {
+    transform: rotate(180deg);
+    display: inline-block;
+  }
