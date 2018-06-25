@@ -9,7 +9,6 @@ document.addEventListener('DOMContentLoaded', function() {
     var instances = M.Collapsible.init(elems);
 });
 
-
 //tool tip
 document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.tooltipped');

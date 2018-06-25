@@ -1,11 +1,21 @@
 [
     {
+        "projectName": "Lil Libs",
+        "preview": "Lil Libs is a Mad Libs inspired game in which the user picks from one of several categories.",
+        "github":"https://github.com/Atrill90/Study-Spot",
+        "deployed":"https://study-spot-ucf.herokuapp.com/",
+        "image": "/img/lilLibsProf2.png",
+        "techs": ["MySQL with Sequelize", "Node JS", "Handlebars JS", "Express JS", "Passport JS", "Bcrypt", "Heroku"],
+        "id": "two"
+    },
+    {
         "projectName": "Study Spot",
-        "preview": "Study Spot is a web application used to assist students in finding the perfect study environment along with                 exploring new ones",
+        "preview": "Study Spot is a web application used to assist students in finding the perfect study environment along with                 exploring",
         "github":"https://github.com/Atrill90/Study-Spot",
         "deployed":"https://study-spot-ucf.herokuapp.com/",
         "image": "/img/spotsPage.png",
-        "id": 1
+        "techs": ["React JS", "Node JS", "Mongo DB with Mongoose", "Express JS", "Google React Maps", "Yelp API", "Heroku"],
+        "id": "one"
     },
     {
         "projectName": "Lil Libs",
@@ -13,6 +23,25 @@
         "github":"https://github.com/Atrill90/Study-Spot",
         "deployed":"https://study-spot-ucf.herokuapp.com/",
         "image": "/img/lilLibsProf2.png",
-        "id": 2
+        "techs": ["MySQL with Sequelize", "Node JS", "Handlebars JS", "Express JS", "Passport JS", "Bcrypt", "Heroku"],
+        "id": "two"
+    },
+    {
+        "projectName": "Study Spot",
+        "preview": "Study Spot is a web application used to assist students in finding the perfect study environment along with                 exploring",
+        "github":"https://github.com/Atrill90/Study-Spot",
+        "deployed":"https://study-spot-ucf.herokuapp.com/",
+        "image": "/img/spotsPage.png",
+        "techs": ["React JS", "Node JS", "Mongo DB with Mongoose", "Express JS", "Google React Maps", "Yelp API", "Heroku"],
+        "id": "one"
+    },
+    {
+        "projectName": "Lil Libs",
+        "preview": "Lil Libs is a Mad Libs inspired game in which the user picks from one of several categories.",
+        "github":"https://github.com/Atrill90/Study-Spot",
+        "deployed":"https://study-spot-ucf.herokuapp.com/",
+        "image": "/img/lilLibsProf2.png",
+        "techs": ["MySQL with Sequelize", "Node JS", "Handlebars JS", "Express JS", "Passport JS", "Bcrypt", "Heroku"],
+        "id": "two"
     }
 ]

@@ -194,3 +194,15 @@ main{
 .card-action{
     border-top: none !important;
 }
+.techFont{
+    color: rgb(39,94,99);
+    font-size: 20px;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.collapsible-body{
+   max-height: 400px;
+   padding: 10px 30px 0px 30px;
+}
