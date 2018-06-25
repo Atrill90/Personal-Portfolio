@@ -187,7 +187,10 @@ main{
 #repoTitle{
     width: 100%;
 }
-.fa-angle-down {
+/* .fa-angle-down {
     transform: rotate(180deg);
     display: inline-block;
-  }
+  } */
+.card-action{
+    border-top: none !important;
+}

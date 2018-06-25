@@ -1,7 +1,10 @@
 <div class="container">
     <div class="row mt-3">
-        <div class="col s12 m5">
-            <div class="card firstCard">
+        {{!-- <div class="col s12 m5"> --}}
+            {{#each projects}}
+            {{> projects}}
+            {{/each}}
+            {{!-- <div class="card firstCard">
                 <div class="card-image">
                     <img class="cardImg materialboxed" src="../img/spotsPage.png">
 
@@ -17,8 +20,8 @@
                     <a class="cyan darken-4 waves-effect waves-teal btn ml-3 mb-2 mt-2" href="#">Git Repo</a>
                 </div>
             </div>
-        </div>
-        <div class="col s12 m5">
+        </div> --}}
+        {{!-- <div class="col s12 m5">
             <div class="card secondCard">
                 <div class="card-image">
                     <img class="cardImg materialboxed" src="../img/lilLibsProf2.png">
@@ -49,7 +52,7 @@
                 </div>
 
             </div>
-        </div>
+        </div> --}}
     </div>
 
 

@@ -1,0 +1,29 @@
+ <div class="col s12 m5">
+            <div class="card secondCard">
+                <div class="card-image">
+                    <img class="cardImg materialboxed" src={{this.image}}>
+
+                </div>
+                <div class="card-content pt-1">
+                    <ul class="collapsible">
+                        <li>
+                            <div class="collapsible-header nameBar">
+                                <h5 id= "repoTitle" class="ml-2">{{this.projectName}} <i class="fas fa-angle-down right"></i></h5>
+                          
+                            </div>
+                            <div class="collapsible-body">
+                                <p>
+                                    {{this.preview}}
+                                </p>
+                                <div class="card-action">
+                                    <a class="cyan darken-4 waves-effect waves-teal btn ml-3 mb-2 mt-2" href="{{this.deployed}}">Live Site</a>
+
+                                    <a class="cyan darken-4 waves-effect waves-teal btn ml-3 mb-2 mt-2" href="{{this.github}}">Git Repo</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
