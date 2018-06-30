@@ -212,3 +212,26 @@ p{
 #myName{
     font-family: 'Open Sans', sans-serif;
 }
+#projectHeader{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    animation: heading;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+#projectArea{
+    animation:projectSlide;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+
+@keyframes heading {
+    0% {top:-1000px}
+    100% {top:20px}
+}
+@keyframes projectSlide {
+    0% {right:-1000px}
+    100% {right:0px}
+}
