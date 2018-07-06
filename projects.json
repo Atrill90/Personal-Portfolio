@@ -27,12 +27,12 @@
         "id": "three"
     },
     {
-        "projectName": "Lil Libs",
-        "preview": "Lil Libs is a Mad Libs inspired game in which the user picks from one of several categories.",
-        "github":"https://github.com/Atrill90/Study-Spot",
-        "deployed":"https://study-spot-ucf.herokuapp.com/",
-        "image": "/img/lilLibsProf2.png",
-        "techs": ["MySQL with Sequelize", "Node JS", "Handlebars JS", "Express JS", "Passport JS", "Bcrypt", "Heroku"],
-        "id": "two"
+        "projectName": "League Memory Test",
+        "preview": "A short term memory game that lets the user try to beat their highscore",
+        "github":"https://github.com/Atrill90/Clicking-Match-Game",
+        "deployed":"https://mighty-reaches-97269.herokuapp.com",
+        "image": "/img/memorytest.png",
+        "techs": ["React JS", "Node JS", "Yarn", "Heroku"],
+        "id": "four"
     }
 ]
