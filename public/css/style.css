@@ -162,54 +162,77 @@
 #nameLogo{
     font-family: 'Cherry Swash', cursive;
 }
+.brand-logo{
+   left: 50%;
+}
+
 .cardImg{
    max-width: 100%;
 }
+
 body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
 }
+
 main{
     flex: 1 0 auto;
     background-image: url("../img/skelatal_weave.png");
     background-attachment: fixed;
 
 }
+
+.descriptionText{
+    font-size: 20px;
+}
+
 .card-content{
     padding: 0px !important;
 }
+
 .col{
     max-height: 100%;
 }
+
 .nameBar{
     color: rgb(39,94,99);
     outline: none;
     box-shadow: none;
 }
+
 #repoTitle{
     width: 100%;
 }
-/* .fa-angle-down {
-    transform: rotate(180deg);
-    display: inline-block;
-  } */
+
 .card-action{
     border-top: none !important;
 }
+
 .techFont{
     color: rgb(39,94,99);
     font-size: 20px;
 }
+
 p{
     font-family: 'Open Sans', sans-serif;
     
 }
+
 .collapsible-body{
    max-height: 400px;
    padding: 10px 30px 0px 30px;
    overflow: none;
 }
+.liveBtn{
+    float: left;
+    margin-right: 1rem;
+}
+
+.repoBtn{
+    margin-bottom: 1rem;
+}
+
 #myName{
     font-family: 'Open Sans', sans-serif;
 }
@@ -228,10 +251,6 @@ p{
     position: relative;
 }
 
-#skillContainer{
-   
-}
-
 .skillIcon{
     filter: gray;
     -webkit-filter: grayscale(100%);
@@ -248,8 +267,8 @@ p{
 }
 
 @keyframes heading {
-    0% {top:-1000px}
-    100% {top:20px}
+    0% {opacity: 0}
+    100% {opacity: 1}
 }
 @keyframes projectSlide {
     /* 0% {right:-1000px}
@@ -258,6 +277,30 @@ p{
     100% {opacity: 1}
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 913px) {
 
+ .liveBtn{
+float: left;
+margin-left: 0px;
+margin-right: 2rem;
+ }   
+}
+
+@media only screen and (max-width: 838px) {
+.collapsible-body{
+    overflow: scroll;
+    }
+.liveBtn,.repoBtn{
+    margin-left: 20%;
+    }   
+}
+
+@media only screen and (max-width: 560px) {
+.skillIcon{
+    width: 80%;
+}
+
+.brand-logo{
+    left: 10% !important;
+}
 }
