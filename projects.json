@@ -2,8 +2,8 @@
     {
         "projectName": "Lil Libs",
         "preview": "Lil Libs is a Mad Libs inspired game in which the user picks from one of several categories.",
-        "github":"https://github.com/Atrill90/Study-Spot",
-        "deployed":"https://study-spot-ucf.herokuapp.com/",
+        "github":"https://github.com/Atrill90/req.libs",
+        "deployed":"https://req-libs.herokuapp.com/",
         "image": "/img/lilLibsProf2.png",
         "techs": ["MySQL with Sequelize", "Node JS", "Handlebars JS", "Express JS", "Passport JS", "Bcrypt", "Heroku"],
         "id": "two"
