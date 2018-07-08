@@ -280,6 +280,15 @@ margin-right: 10%;
 footer{
     padding-top: 0px !important;
 }
+
+@media only screen and (max-width: 769px) {
+    .skillIcon{
+        filter: gray !important;
+        -webkit-filter: grayscale(100%) !important;
+    }
+
+}
+
 @media only screen and (max-width: 560px) {
 .skillIcon{
     width: 80%;

@@ -1,17 +1,19 @@
 document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.materialboxed');
-    var instances = M.Materialbox.init(elems);
+    let elems = document.querySelectorAll('.materialboxed');
+    let instances = M.Materialbox.init(elems);
   });
 
 //collapsible
 document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.collapsible');
-    var instances = M.Collapsible.init(elems);
+    let elems = document.querySelectorAll('.collapsible');
+    let instances = M.Collapsible.init(elems);
 });
 
 //tool tip
 document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.tooltipped');
-    var instances = M.Tooltip.init(elems);
+    if (window.innerWidth >= 769){
+    let elems = document.querySelectorAll('.tooltipped');
+    let instances = M.Tooltip.init(elems);
+    }
 });
 
