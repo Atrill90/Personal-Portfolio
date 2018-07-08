@@ -225,8 +225,8 @@ p{
    overflow: none;
 }
 .liveBtn{
-    float: left;
-    margin-right: 1rem;
+margin-right: 10%;
+    
 }
 
 .repoBtn{
@@ -277,24 +277,9 @@ p{
     100% {opacity: 1}
 }
 
-@media only screen and (max-width: 913px) {
-
- .liveBtn{
-float: left;
-margin-left: 0px;
-margin-right: 2rem;
- }   
+footer{
+    padding-top: 0px !important;
 }
-
-@media only screen and (max-width: 838px) {
-.collapsible-body{
-    overflow: scroll;
-    }
-.liveBtn,.repoBtn{
-    margin-left: 20%;
-    }   
-}
-
 @media only screen and (max-width: 560px) {
 .skillIcon{
     width: 80%;
@@ -302,5 +287,15 @@ margin-right: 2rem;
 
 .brand-logo{
     left: 10% !important;
+}
+.collapsible-body{
+    overflow: scroll;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+.repoBtn{
+    margin-right: 10%;
+
 }
 }
