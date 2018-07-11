@@ -283,9 +283,9 @@ footer{
 
 @media only screen and (max-width: 769px) {
     .skillIcon{
-        filter: gray !important;
-        -webkit-filter: grayscale(100%) !important;
-    }
+        filter: none !important;
+        -webkit-filter: grayscale(0%) !important;
+    } 
 
 }
 
