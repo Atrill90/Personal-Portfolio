@@ -10,7 +10,7 @@
     },
     {
         "projectName": "Study Spot",
-        "preview": "Study Spot is a web application used to assist students in finding the perfect study environment along with                 exploring",
+        "preview": "Study Spot is a web application used to assist students in finding the perfect study environment along with                 exploring new options around the UCF area",
         "github":"https://github.com/Atrill90/Study-Spot",
         "deployed":"https://study-spot-ucf.herokuapp.com/",
         "image": "/img/spotsPage.png",
