@@ -178,8 +178,9 @@ body {
 
 main{
     flex: 1 0 auto;
-    background-image: url("../img/skelatal_weave.png");
+    background-image: url("../img/main_bg.png");
     background-attachment: fixed;
+    
 
 }
 
@@ -289,6 +290,13 @@ footer{
 
 }
 
+@media only screen and (max-width: 600px) {
+#nav-mobile2{
+    padding-top: 5px;
+
+}
+}
+
 @media only screen and (max-width: 560px) {
 .skillIcon{
     width: 80%;
@@ -307,4 +315,5 @@ footer{
     margin-right: 10%;
 
 }
+
 }
