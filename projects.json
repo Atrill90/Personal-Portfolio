@@ -6,7 +6,7 @@
         "deployed":"https://req-libs.herokuapp.com/",
         "image": "/img/lilLibsProf2.png",
         "techs": ["MySQL with Sequelize", "Node JS", "Handlebars JS", "Express JS", "Passport JS", "Bcrypt", "Heroku"],
-        "id": "two"
+        "id": "three"
     },
     {
         "projectName": "Study Spot",
@@ -18,13 +18,13 @@
         "id": "one"
     },
     {
-        "projectName": "What To Do",
-        "preview": "What To Do is an event finder that takes the users location and uses Ticketmaster to locate things to do around them.",
-        "github":"https://github.com/Atrill90/What-To-Do",
-        "deployed":"https://atrill90.github.io/What-To-Do//",
-        "image": "/img/whattodo2.png",
-        "techs": ["Ajax", "Front-end Javascript", "Google Geolocation API", "Google Map API", "Ticketmaster API", "Bootstrap"],
-        "id": "three"
+        "projectName": "Chat GPT3",
+        "preview": "React practice project using design from Figma to practice React and BEM css",
+        "github":"https://github.com/Atrill90/GPT3",
+        "deployed":"https://gpt-3-taupe.vercel.app/",
+        "image": "/img/chatgpt3.png",
+        "techs": ["React JS", "Figma", "BEM CSS"],
+        "id": "two"
     },
     {
         "projectName": "Memory Test",
