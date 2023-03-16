@@ -22,7 +22,7 @@
         "preview": "React practice project using design from Figma to practice React and BEM css",
         "github":"https://github.com/Atrill90/GPT3",
         "deployed":"https://gpt-3-taupe.vercel.app/",
-        "image": "/img/chatgpt3.png",
+        "image": "/img/chatgpt3-copy.png",
         "techs": ["React JS", "Figma", "BEM CSS"],
         "id": "two"
     },
